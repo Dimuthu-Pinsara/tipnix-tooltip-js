@@ -27,3 +27,13 @@ For now, you can manually include it:
 <!-- Include Tipnix Tooltip from CDN -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Dimuthu-Pinsara/tipnix-tooltip-js@latest/tipnix-tooltip.css">
 <script src="https://cdn.jsdelivr.net/gh/Dimuthu-Pinsara/tipnix-tooltip-js@latest/tipnix-tooltip.js"></script>
+
+## 🚀 Getting Started
+
+### 1. Initialize Tipnix Tooltip
+Frist you need to add defualt color for this tooltip
+
+```javascript
+initTipNixTooltip({
+    backgroundColor: '#000000',
+  });
